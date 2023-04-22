@@ -1,0 +1,13 @@
+img {
+  width: 80px;
+}
+
+nav {
+  background-color: rgb(255, 152, 42);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+a, 
+#root > div > nav > button {
+  margin-left: 1rem;
+}

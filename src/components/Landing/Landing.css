@@ -1,0 +1,46 @@
+.Landing {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(113, 148, 214);
+} 
+
+.Landing .blurb {
+  margin-right: 50px;
+  margin-top: 1rem;
+}
+
+.Landing div h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.Landing div p {
+  font-size: 24px;
+}
+
+img[alt="Profile"] {
+  width: 400px;
+  border-radius: 50%;
+  transition: transform 0.5s ease-out;
+}
+
+img[alt="Profile"]:hover {
+  transform: scale(1.1);
+}
+
+.fa-file-lines {
+  color: white;
+  text-decoration: none;
+}
+
+.blurb > a:nth-child(3) > h5:nth-child(2) {
+  color: white;
+}
+
+.blurb > p:nth-child(2) {
+  font-weight: bold;
+  color: white;
+}

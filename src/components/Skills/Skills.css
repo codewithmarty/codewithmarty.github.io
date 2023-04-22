@@ -1,0 +1,36 @@
+.Skills {
+  height: 60vh;
+  background-color: rgb(28, 28, 28);
+  border-top: solid rgb(200, 200, 200) 1px;
+}
+
+@media(max-width: 900px) {
+  .Skills {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .Skills {
+    height: 100vh;
+  }
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill {
+  margin: 1rem;
+}
+
+svg {
+  transition: transform 0.5s ease-out;
+}
+
+svg:hover {
+  transform: scale(1.3);
+}

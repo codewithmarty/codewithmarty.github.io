@@ -1,0 +1,49 @@
+.Projects {
+  height: 130vh;
+  background-color: rgb(28, 28, 28);
+  border-top: solid rgb(200, 200, 200) 1px;
+}
+
+img {
+  object-fit: contain;
+}
+
+.projects-headline {
+  margin-bottom: 3rem;
+}
+
+.carousel-text {
+  margin: 1rem;
+}
+
+.carousel-text h3 {
+  margin-top: 1rem;
+}
+
+.slick-dots li button {
+  filter: invert(1);
+}
+
+#projects > div > div > div > div > div > div.slick-slide.slick-active.slick-current > div > div > div > a {
+  margin-bottom: 1rem;
+}
+
+div.slick-slide > div > div > div > p {
+  text-align: justify;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.carousel-text ul li {
+ list-style-type: none; 
+ color: rgb(255, 255, 255);
+ border: 1px solid gray;
+ border-radius: 10px;
+ padding: 1rem;
+}
