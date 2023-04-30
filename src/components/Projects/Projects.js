@@ -39,7 +39,7 @@ const Projects = () => {
     <div id="projects" className="Projects">
       <Row>
         <Col>
-          <h1 className="projects-headline text-center my-5">Projects</h1>
+          <h1 className="projects-headline text-center my-5">Projects (Swipe Right)</h1>
           <Slider {...settings}>
             {projects.map((project, index) => (
               <div key={index}>

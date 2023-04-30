@@ -11,3 +11,8 @@ a,
 #root > div > nav > button {
   margin-left: 1rem;
 }
+
+a.nav-link {
+  color: black;
+  font-weight: bold;
+}
