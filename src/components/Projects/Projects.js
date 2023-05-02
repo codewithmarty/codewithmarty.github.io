@@ -1,69 +1,30 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import Slider from 'react-slick';
-import projects from './myprojects';
-
-import './Projects.css'
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import "./Projects.css";
+import projects from './myprojects'
 
 const Projects = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true,
-        }
-      }
-    ]
-  };
-
   return (
-    <div id="projects" className="Projects">
-      <Row>
-        <Col>
-          <h1 className="projects-headline text-center my-5">Projects (Swipe Right)</h1>
-          <Slider {...settings}>
-            {projects.map((project, index) => (
-              <div key={index}>
-                <img
-                  className="d-block w-100"
-                  src={project.image}
-                  alt={project.title}
-                />
-                <div className="carousel-text">
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
-                  <h4>Tech Stack</h4>
-                  <ul>
-                    {project.stack.map( (technology, idx) => (
-                      <li>{technology}</li>
-                    ))}
-                  </ul>
-                  <a href={project.link} className="btn btn-success" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
+    <div className="projects-container">
+      <h2>Projects</h2>
+      <div className="cards-container">
+        {projects.map((project) => (
+          <div key={project.id} className="card" style={{backgroundColor: "rgb(28, 28, 28)", border: "1px solid beige"}}>
+            <img src={project.image} alt={project.title} />
+            <div className="card-details">
+              <div>
+                <h3>{project.title}</h3>
+                <p>{project.description.substring(0, 300) + "..."}</p>
+                <ul>
+                  {project.stack.map((tech) => (
+                    <li key={tech}>{tech}</li>
+                  ))}
+                </ul>
               </div>
-            ))}
-          </Slider>
-        </Col>
-      </Row>
+              <a href={project.link}>View Project</a>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

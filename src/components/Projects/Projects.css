@@ -1,49 +1,74 @@
-.Projects {
-  height: 130vh;
+.projects-container {
+  margin: 0 auto;
+  padding: 50px 0;
   background-color: rgb(28, 28, 28);
-  border-top: solid rgb(200, 200, 200) 1px;
 }
 
-img {
-  object-fit: contain;
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.projects-headline {
-  margin-bottom: 3rem;
+.card {
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  color: white;
 }
 
-.carousel-text {
-  margin: 1rem;
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
-.carousel-text h3 {
-  margin-top: 1rem;
+.card-details {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.slick-dots li button {
-  filter: invert(1);
-}
-
-#projects > div > div > div > div > div > div.slick-slide.slick-active.slick-current > div > div > div > a {
-  margin-bottom: 1rem;
-}
-
-div.slick-slide > div > div > div > p {
+.card-details p {
   text-align: justify;
 }
 
-ul {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.card-details a {
+  text-decoration: none;
+  color: rgb(108, 245, 255);
+  padding: 1rem;
+  border: 1px solid rgb(108, 245, 255);
+  border-radius: 10px;
+  margin: 2rem;
 }
 
-.carousel-text ul li {
- list-style-type: none; 
- color: rgb(255, 255, 255);
- border: 1px solid gray;
- border-radius: 10px;
- padding: 1rem;
+.card-details a:hover {
+  background-color: rgb(108, 245, 255);
+  color: black;
+}
+
+.card-details h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: white;
+  border: 1px solid beige;
+  padding: 1rem;
 }
