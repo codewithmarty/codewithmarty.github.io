@@ -13,7 +13,7 @@ const Projects = () => {
             <div className="card-details">
               <div>
                 <h3>{project.title}</h3>
-                <p>{project.description.substring(0, 300) + "..."}</p>
+                <p>{project.description}</p>
                 <ul>
                   {project.stack.map((tech) => (
                     <li key={tech}>{tech}</li>
