@@ -1,7 +1,6 @@
 .Skills {
   height: 60vh;
   background-color: rgb(28, 28, 28);
-  border-top: solid rgb(200, 200, 200) 1px;
 }
 
 @media(max-width: 900px) {

@@ -4,7 +4,7 @@ import projects from './myprojects'
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <h2>Projects</h2>
       <div className="cards-container">
         {projects.map((project) => (

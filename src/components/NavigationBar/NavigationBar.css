@@ -3,7 +3,7 @@ img {
 }
 
 nav {
-  background-color: rgb(255, 152, 42);
+  background: linear-gradient(to right, rgb(255, 152, 42), #ff00ea);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
