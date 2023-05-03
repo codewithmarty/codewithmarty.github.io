@@ -1,14 +1,15 @@
 import React from "react";
 import "./Projects.css";
+import { FaGithub } from 'react-icons/fa';
 import projects from './myprojects'
 
 const Projects = () => {
   return (
     <div id="projects" className="projects-container">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div className="cards-container">
         {projects.map((project) => (
-          <div key={project.id} className="card" style={{backgroundColor: "rgb(28, 28, 28)", border: "1px solid beige"}}>
+          <div key={project.id} className="card" style={{backgroundColor: "rgb(28, 28, 28)", boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)", border: "none"}}>
             <img src={project.image} alt={project.title} />
             <div className="card-details">
               <div>
@@ -20,7 +21,7 @@ const Projects = () => {
                   ))}
                 </ul>
               </div>
-              <a href={project.link}>View Project</a>
+              <a href={project.link}>View Project on <FaGithub /></a>
             </div>
           </div>
         ))}

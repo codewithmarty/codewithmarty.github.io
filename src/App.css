@@ -2,7 +2,20 @@
 
 body {
   overflow-x: hidden;
-  background-color: rgb(28, 28, 28);
+  background: linear-gradient(to right, rgb(255, 152, 42), #ff70f3);
+}
+
+h1,
+svg,
+.skill > p,
+.fa-youtube,
+.fa-instagram,
+.fa-linkedin  {
+  color: rgb(43, 37, 37);
+}
+
+a > svg {
+  color: rgb(0, 153, 255);
 }
 
 .App {

@@ -13,13 +13,13 @@ const ContactPage = () => {
   return (
     <div id="contact" className="ContactPage">
       <h1>Connect on Social Media</h1>
-      <a href="https://www.instagram.com/obiwannicola" target="_blank" rel="noopener noreferrer">
+      <a className="social-icon ig" href="https://www.instagram.com/obiwannicola" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} size="4x" />
       </a>
-      <a href="https://www.linkedin.com/in/martinnicola" target="_blank" rel="noopener noreferrer">
+      <a className="social-icon li" href="https://www.linkedin.com/in/martinnicola" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="4x" />
       </a>
-      <a href="https://www.youtube.com/watch?v=hlfLySVnB_0" target="_blank" rel="noopener noreferrer">
+      <a className="social-icon yt" href="https://www.youtube.com/watch?v=hlfLySVnB_0" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faYoutube} size="4x" />
       </a>
     </div>
