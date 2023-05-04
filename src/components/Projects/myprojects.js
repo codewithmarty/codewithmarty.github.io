@@ -33,12 +33,20 @@ const projects = [
   },
   {
     id: 5,
+    title: "Checkers",
+    description: "Checkers is a game that either involves two players or one player and a CPU. Each player has 12 chips positioned in every other square on either side (see image below). The chips move diagonally across the board, one space at a time, unless two special conditions are met (explained below). The chips come in two colours: red and white. It is convention that red always goes first. Pieces can be eliminated if a player (or CPU) hops diagonally over a chip of the opposite colour into an adjacent empty space. The game concludes when all chips of one colour are eliminated from the game.",
+    stack: ['HTML', 'CSS', 'Vanilla JS'],
+    image: "images/checkers.png",
+    link: "https://github.com/codewithmarty/checkers"
+  },
+  {
+    id: 6,
     title: "Connect Four",
     description: "Connect Four is a two-player strategy game in which players take turns dropping colored discs into a vertical grid. The first player to connect four discs of their color in a row, either horizontally, vertically, or diagonally, wins the game.",
     stack: ['HTML', 'CSS', 'Vanilla JS'],
     image: "images/connect4.png",
     link: "https://github.com/codewithmarty/connect-four"
-  }
+  },
 ]
 
 export default projects;
