@@ -2,6 +2,10 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { 
+  faLinkedin,
+  faGithub
+} from '@fortawesome/free-brands-svg-icons';
 
 import './NavigationBar.css'
 
@@ -15,12 +19,17 @@ const NavigationBar = () => {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <div style={{display: 'flex', alignItems: 'center'}}>
+        <a className="social-icon li" href="https://www.linkedin.com/in/martinnicola" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} size="4x" style={{ color: 'white', width: '40px'}} />
+        </a>
+        <a className="social-icon li" href="https://www.github.com/codewithmarty" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="4x" style={{ color: 'white', width: '40px'}} />
+        </a>
         <a href="resume/marty_resume_2023.pdf" download>
-          <FontAwesomeIcon icon={faFileAlt} size="3x" style={{ color: 'white'}}/>
+          <FontAwesomeIcon icon={faFileAlt} size="3x" style={{ color: 'white', width: '30px'}}/>
         </a>
         <img src="images/logo.png" alt=""/>
       </div>

@@ -71,3 +71,30 @@ li {
   border: 1px solid beige;
   padding: 1rem;
 }
+
+.ContactPage {
+  padding: 1rem;
+  height: 20vh;
+}
+
+@media (max-height: 2532px) {
+  .ContactPage {
+    margin-top: 2rem;
+  }
+}
+
+.social-icon.ig {
+  color: rgb(162, 135, 206);
+}
+
+.social-icon.li {
+  color: rgb(136, 136, 255);
+}
+
+.social-icon.yt {
+  color: rgb(255, 99, 99);
+}
+
+.social-icon:hover {
+  color: white;
+}
