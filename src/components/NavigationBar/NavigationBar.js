@@ -1,5 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 
 import './NavigationBar.css'
 
@@ -16,9 +18,12 @@ const NavigationBar = () => {
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <Nav.Link href="#">
+      <div style={{display: 'flex', alignItems: 'center'}}>
+        <a href="resume/marty_resume_2023.pdf" download>
+          <FontAwesomeIcon icon={faFileAlt} size="3x" style={{ color: 'white'}}/>
+        </a>
         <img src="images/logo.png" alt=""/>
-      </Nav.Link>
+      </div>
     </Navbar>
   );
 }
