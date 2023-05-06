@@ -16,11 +16,6 @@
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-  .Landing .blurb {
-    margin-top: 5rem;
-  }
-}
 
 .Landing div h1 {
   font-size: 48px;
@@ -38,14 +33,20 @@ img[alt="Profile"] {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
-  img[alt="Profile"] {
-    width: 300px;
-  }
-}
-
 img[alt="Profile"]:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .Landing .blurb {
+    margin-top: 4rem;
+  }
+  
+  img[alt="Profile"] {
+    width: 275px;
+    margin-top: -2rem;
+  }
+
 }
 
 .fa-file-lines {
