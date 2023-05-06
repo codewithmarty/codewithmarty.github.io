@@ -32,6 +32,12 @@ img[alt="Profile"] {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+  img[alt="Profile"] {
+    width: 300px;
+  }
+}
+
 img[alt="Profile"]:hover {
   transform: scale(1.1);
 }

@@ -21,8 +21,9 @@ const Projects = () => {
                   ))}
                 </ul>
               </div>
-              <a href={project.link}>View Project on <FaGithub /></a>
             </div>
+            <a className="project-link" href={project.link}>View Project on <FaGithub /></a>
+            <a className="project-link" href={project.deployed}>Try it out!</a>
           </div>
         ))}
       </div>

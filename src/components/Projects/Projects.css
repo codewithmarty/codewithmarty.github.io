@@ -36,7 +36,7 @@
   text-align: justify;
 }
 
-.card-details a {
+.project-link {
   text-decoration: none;
   color: rgb(108, 245, 255);
   padding: 1rem;
@@ -45,7 +45,7 @@
   margin: 2rem;
 }
 
-.card-details a:hover {
+.project-link:hover {
   background-color: rgb(108, 245, 255);
   color: black;
 }
