@@ -3,6 +3,12 @@
   height: 20vh;
 }
 
+@media (max-height: 2532px) {
+  .ContactPage {
+    margin-top: 2rem;
+  }
+}
+
 .social-icon.ig {
   color: rgb(162, 135, 206);
 }
