@@ -11,7 +11,7 @@ import './NavigationBar.css'
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="md">
+    <Navbar expand="md" style={{position: 'fixed', top: '0', left: '0', zIndex: '1000', width: '100%'}}>
       {/* <Navbar.Brand href="#">My App</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
