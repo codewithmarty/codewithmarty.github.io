@@ -40,13 +40,14 @@ img[alt="Profile"]:hover {
 @media (max-width: 768px) {
 
   .Landing .blurb {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   
   img[alt="Profile"] {
     width: 275px;
-    margin-top: -2rem;
+    margin-top: -5rem;
   }
+
 
 }
 
