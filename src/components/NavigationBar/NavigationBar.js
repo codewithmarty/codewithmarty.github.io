@@ -28,7 +28,7 @@ const NavigationBar = () => {
         <a className="social-icon li" href="https://www.github.com/codewithmarty" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="4x" style={{ color: 'white', width: '40px'}} />
         </a>
-        <a href="resume/marty_resume_may_2023.pdf" download>
+        <a href="resume/marty-resume-may-2023.pdf" download>
           <FontAwesomeIcon icon={faFileAlt} size="3x" style={{ color: 'white', width: '30px'}}/>
         </a>
         <img src="images/logo.png" alt=""/>
