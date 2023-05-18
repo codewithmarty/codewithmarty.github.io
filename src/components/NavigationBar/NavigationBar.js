@@ -18,6 +18,7 @@ const NavigationBar = () => {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
+          <Nav.Link href="#skills">Certifications</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <div style={{display: 'flex', alignItems: 'center'}}>
