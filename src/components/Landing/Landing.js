@@ -7,7 +7,7 @@ const Landing = () => {
     <div className="Landing">
       <div className="blurb">
         <h1>Hi, I'm Martin</h1>
-        <p>I'm a Software Developer who loves <br/> databases, backend, and cloud computing!</p>
+        <p>I'm an AWS Certified Software Developer who loves <br/> databases, backend, and cloud computing!</p>
       </div>
       <div>
         <img src="images/profile-pic.png" alt="Profile" />
