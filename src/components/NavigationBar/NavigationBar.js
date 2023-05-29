@@ -23,15 +23,15 @@ const NavigationBar = () => {
       </Navbar.Collapse>
       <div style={{display: 'flex', alignItems: 'center'}}>
         <a className="social-icon li" href="https://www.linkedin.com/in/martinnicola" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} size="4x" style={{ color: 'white', width: '40px'}} />
+          <FontAwesomeIcon icon={faLinkedin} size="4x" style={{ color: 'rgba(0, 0, 0, 0.7)', width: '40px'}} />
         </a>
         <a className="social-icon li" href="https://www.github.com/codewithmarty" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} size="4x" style={{ color: 'white', width: '40px'}} />
+          <FontAwesomeIcon icon={faGithub} size="4x" style={{ color: 'rgba(0, 0, 0, 0.7)', width: '40px'}} />
         </a>
         <a href="resume/marty-resume-may-2023.pdf" download>
-          <FontAwesomeIcon icon={faFileAlt} size="3x" style={{ color: 'white', width: '30px'}}/>
+          <FontAwesomeIcon icon={faFileAlt} size="3x" style={{ color: 'rgba(0, 0, 0, 0.7)', width: '30px'}}/>
         </a>
-        <img src="images/logo.png" alt=""/>
+        <img className="logo" src="images/logo.png" alt=""/>
       </div>
     </Navbar>
   );

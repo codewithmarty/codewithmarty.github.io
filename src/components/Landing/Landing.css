@@ -41,6 +41,7 @@ img[alt="Profile"]:hover {
 
   .Landing .blurb {
     margin-top: 8rem;
+    width: 80%;
   }
   
   img[alt="Profile"] {
@@ -48,6 +49,17 @@ img[alt="Profile"]:hover {
     margin-top: -5rem;
   }
 
+  .Landing {
+    height: 110vh;
+  }
+
+}
+
+@media (max-height: 450px) {
+
+  .blurb {
+    color: blue;
+  }
 
 }
 
