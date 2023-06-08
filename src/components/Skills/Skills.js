@@ -18,6 +18,7 @@ const Skills = () => {
       </div>
       <h1 className="text-center my-5">Certifications</h1>
       <img className="certs mb-5" src="images/aws-certified-cloud-practitioner.png" alt="aws-cloud-practitioner-certified" />
+      <img className="certs mb-5" src="images/aws-certified-developer-associate.png" alt="aws-certified-developer" />
     </div>
   );
 };
